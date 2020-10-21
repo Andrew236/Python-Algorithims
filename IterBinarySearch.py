@@ -3,7 +3,7 @@
 data = [2,4,5,6,7,8,10,13,15,18,19,25,26,27,28,29,30,31,32,3]
 target = 25
 
-def binarySearch(data, target):
+def binary_search(data, target):
    
     count = 0
     low = 0
@@ -28,7 +28,7 @@ def binarySearch(data, target):
     return False 
 
 print("Result of iterated binary search of a sorted list: ")   
-binarySearch(data,target)
+binary_search(data,target)
         
 
 
